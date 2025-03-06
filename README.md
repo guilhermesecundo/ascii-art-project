@@ -10,15 +10,25 @@ Este projeto converte imagens em arte ASCII utilizando Python. Ele é composto p
 
 ascii-art-project/
 ├── pycache/ # Arquivos de cache do Python
+
 ├── ascii_converter.cpython-312.pyc # Cache compilado do ascii_converter.py
+
 ├── image_processor.cpython-312.pyc # Cache compilado do image_processor.py
+
 ├── src/ # Diretório principal do código-fonte
+
 │ ├── ascii_converter.py # Conversão para arte ASCII
+
 │ ├── image_processor.py # Processamento de imagens
+
 │ └── main.py # Script principal (a ser planejado)
+
 ├── .gitignore # Arquivos ignorados pelo Git
+
 ├── README.md # Documentação do projeto
+
 ├── requirements.txt # Dependências do projeto
+
 └── test_integration.py # Script para testar a integração dos módulos
 
 ## 🚀 Como Executar
