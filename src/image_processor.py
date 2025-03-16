@@ -1,6 +1,6 @@
 from PIL import Image   
 
-image_input = "example_image.png"
+# image_input = "example_image.png"
 
 def load_image(image_input):
     image = Image.open(image_input)

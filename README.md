@@ -1,6 +1,7 @@
 # Projeto ASCII Art 🎨
 
 Este projeto converte imagens em arte ASCII utilizando Python. Ele é composto por dois módulos principais:
+
 - **image_processor.py**: Processa a imagem de entrada (redimensiona e converte para escala de cinza).
 - **ascii_converter.py**: Converte a imagem processada em arte ASCII.
 
@@ -9,11 +10,6 @@ Este projeto converte imagens em arte ASCII utilizando Python. Ele é composto p
 ## 📂 Estrutura do Repositório
 
 ascii-art-project/
-├── pycache/ # Arquivos de cache do Python
-
-├── ascii_converter.cpython-312.pyc # Cache compilado do ascii_converter.py
-
-├── image_processor.cpython-312.pyc # Cache compilado do image_processor.py
 
 ├── src/ # Diretório principal do código-fonte
 
@@ -21,7 +17,7 @@ ascii-art-project/
 
 │ ├── image_processor.py # Processamento de imagens
 
-│ └── main.py # Script principal (a ser planejado)
+│ └── main.py # Script principal 
 
 ├── .gitignore # Arquivos ignorados pelo Git
 
@@ -29,7 +25,6 @@ ascii-art-project/
 
 ├── requirements.txt # Dependências do projeto
 
-└── test_integration.py # Script para testar a integração dos módulos
 
 ## 🚀 Como Executar
 
@@ -39,13 +34,13 @@ pip install -r requirements.txt
 
 
 ### 2. Execute o Teste de Integração
-Use o script `test_integration.py` para testar os módulos:
-python test_integration.py
+Use o script `main.py` para testar os módulos:
+python main.py
 
 
 ### 3. Resultados Gerados:
-- A imagem processada será salva como `pendente`.
-- A arte ASCII será salva como `pendente`.
+- A imagem processada será salva como `processed.output`.
+- A arte ASCII será salva como `output_ascii`.
 
 
 ## 🛠️ Tecnologias Utilizadas
@@ -53,3 +48,14 @@ python test_integration.py
 - **Python 3.13.2**
 - **Pillow**: Biblioteca para manipulação de imagens.
 - **NumPy**: Biblioteca para cálculos numéricos.
+
+## Melhorias:
+- Adicionar estilos nas artes geradas
+- Modificação no ascii_converter.py nas suas opções de salvamento da arte
+- Nessa opção, colocar a alternativa para o usuario de escolher esse save em .txt ou image
+- Makefile
+
+ (FUTURAMENTE) 
+- adicionar IA a fim de desenhar com diferentes estilos, redes neurais convulacionais
+- testes unitarios
+- GIF
